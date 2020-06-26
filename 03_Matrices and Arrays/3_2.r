@@ -29,6 +29,6 @@ t(b) %*% (a %*% t(a))
 solve((b %*% t(b)) + (a %*% t(a)) - 100 * diag(nrow = 3))
 
 # c)
-a = diag(c(2, 3, 5, -1))
+a = diag(c(2, 3, 5,-1))
 solve(a) %*% a - diag(nrow = 4)
 #as required
